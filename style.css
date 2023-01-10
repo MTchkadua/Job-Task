@@ -1,0 +1,325 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sectionHeader{
+    background-color: rgba(245, 253, 255, 0.8);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(14px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.blueHeader{
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11346F;
+    color: white;
+}
+.blueHeaderBox{
+    display: flex;
+    width: 313px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Mont-800';
+}
+.logo{
+    width: 156px;
+    height: 23.47px
+}
+
+.navigationSection{
+    width: 86.11112%;
+    height: 67px;
+    display: flex;
+    align-items: center;
+}
+.navigationHeader{
+    width: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 249px;
+}
+.liOne{
+    font-family: 'Mont-700';
+    color: #11346F;
+    font-size: 16px;
+}
+.li{
+    font-family: 'Mont-600';
+    font-size: 16px;
+    color: #11346F;
+    opacity: 0.75;
+}
+.headerButton{
+    background-color: #197AFF;
+    border-radius: 60px;
+    Width: 165px;
+    Height: 42px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Mont-800';
+    font-size: 14px;
+    margin-left: 155px;
+}
+
+.bodyBoxOne{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFBFB;
+     
+}
+
+.bodyBoxOneHeader{
+    width: 86.11112%;
+    display: flex;
+    Height:57px;
+    margin-left: 100px;
+    margin-top: 63px;
+    font-size: 42px;
+    font-family: 'Mont-600';
+    color: #213786;
+}
+.magic{
+    margin-left: 8px;
+    color: #197AFF;
+    font-family: 'Mont-900';
+}
+.vector{
+   padding-bottom: 20px;
+}
+.arrow{
+    padding-left: 8.3px;
+}
+
+.bodyBoxOneBody{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.bodyBoxOneMiddle{
+    width: 731px;
+}
+.sup{
+    margin-right: 5px;
+    font-size: 12px;
+}
+.bodyBoxOneBodyTxt{
+    font-size: 18px;
+    font-family: 'Mont-600';
+}
+.bodyBoxOneBodyOptions{
+    margin-top: 25px;
+    display: flex;
+    width: 686px;
+    height: 152px;
+    background: rgba(174, 204, 255, 0.1);
+    border: 1px solid rgba(174, 204, 255, 0.5);
+    border-radius: 10px;
+    margin-top: 26px;
+}
+.headMassage{
+    width: 179px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m1{
+    margin-top: 17px;
+    
+}
+.m1H{
+    margin-top: 15px;
+    font-family: 'Mont-800';
+    font-size: 14px;
+    color: #11346F;
+    font-size: 14px;
+    line-height: 20px;
+}
+.m1p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #262626;
+    font-family: 'Mont-600';
+}
+.hr{
+    border: 1px solid #CEE2FF;
+}
+.fullBodyMassage{
+    width: 181px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kidMassage{
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.petMassage{
+    width: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerMachine{
+    width: 391px;
+    height: 241px;
+    margin-right: 87px;
+}
+.getNow{
+    margin-top: 52px;
+    width: 408px;
+    height: 63px;
+    background: #197AFF;
+    border-radius: 60px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Mont-700';
+    font-size: 18px;
+}
+.boxOneButton{
+    display: flex;
+    width: 255px;
+    height: 34px;
+    background: rgba(77, 145, 207, 0.15);
+    box-shadow: 0px 0px 14px #FFFFFF;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 76px;
+    margin-top: 18px;
+}
+.spn1{
+    font-family: 'Mont-500';
+    font-size: 15px;
+}
+.spn2{
+    font-family: 'Mont-500';
+    font-size: 15px;
+    color: #197AFF;
+    
+}
+.boxOneBodyRate{
+    margin-top: 87px;
+    width: 393px;
+    height: 81px;
+    background: rgba(234, 242, 255, 0.1);
+    border: 1px solid rgba(174, 204, 255, 0.5);
+    border-radius: 110px;
+    display: flex;
+    align-items: center;
+}
+.fitstBlondGirl{
+    margin-left: 11px;
+}
+.boxOneBodyRateText{
+    margin-left: 16px;
+    width: 222px;
+    font-size: 12px;
+    font-family: 'Mont-600';
+}
+.boxOneBodyStars{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stars{
+    margin-left: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.star{
+    width: 13.9px;
+    height: 13.9px;
+}
+.debra{
+    margin-left: 5px;
+    color: #787979;
+    font-size: 12px;
+
+}
+.verifiedBuyer{
+    display: flex;
+    color: #197AFF;
+    font-size: 11px;
+    font-family: 'Mont-700';
+    align-items: center;
+    margin-left: 32.5px;
+    
+}
+.tickTxt{
+    margin-left: 5px;
+}
+.blueLineSection{
+    width: 100%;
+    height: 97px;
+    background-color: #11346F;
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+}
+.shiping{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Mont-700';
+    align-items: center;
+    margin-left: 94px;
+}
+.shippingFotoDiv{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shippingTxt{
+    margin-left: 16px;
+}
+.moneyBack{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Mont-700';
+    align-items: center;
+    margin-left: 52px;
+}
+.moneyBackFoto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moneyBackTxt{
+    margin-left: 16px;
+}
+.review{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Mont-700';
+    align-items: center;
+    margin-left: 52px;
+}
