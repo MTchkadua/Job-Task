@@ -920,12 +920,11 @@
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    align-items: center;
     justify-content: center;
 }
 
 
-.questionOneBox{
+#qB{
     display: none;
     background: #11346F;
     width: 652px;
@@ -933,59 +932,9 @@
     border: 1px solid #31548E;
     border-radius: 9px;
 }
-.questionOne{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 59px;
-    background: #194081;
-    border: 1px solid #31548E;
-    border-radius: 9px 9px 0px 0px;
-    
-}
-.questionTwoBox{
-    display: none;
-    background: #11346F;
-    width: 652px;
-    height: 126px;
-    border: 1px solid #31548E;
-    border-radius: 9px;
-}
-.questionTwo{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 59px;
-    background: #194081;
-    border: 1px solid #31548E;
-    border-radius: 9px 9px 0px 0px;
-}
-.question3Box{
-    display: none;
-    background: #11346F;
-    width: 652px;
-    height: 126px;
-    border: 1px solid #31548E;
-    border-radius: 9px;
-}
-.question3{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 59px;
-    background: #194081;
-    border: 1px solid #31548E;
-    border-radius: 9px 9px 0px 0px;
-}
-.question4Box{
-    display: none;
-    background: #11346F;
-    width: 652px;
-    height: 126px;
-    border: 1px solid #31548E;
-    border-radius: 9px;
-}
-.question4{
+
+
+#questionG{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -995,44 +944,16 @@
     border-radius: 9px 9px 0px 0px;
 }
 
-.onlyQuestion1{
+#onlyQ{
     display: flex;
     justify-content: space-between;
-    display: block;
     width: 652px;
     height: 59px;
     background: #194081;
     border: 1px solid #31548E;
     border-radius: 9px;
 }
-.onlyQuestion2{
-    display: flex;
-    justify-content: space-between;
-    display: block;
-    width: 652px;
-    height: 59px;
-    background: #194081;
-    border: 1px solid #31548E;
-    border-radius: 9px;
-}
-.onlyQuestion3{
-    display: flex;
-    justify-content: space-between;
-    display: block;
-    width: 652px;
-    height: 59px;
-    background: #194081;
-    border: 1px solid #31548E;
-    border-radius: 9px;
-}
-.onlyQuestion4{
-    display: block;
-    width: 652px;
-    height: 59px;
-    background: #194081;
-    border: 1px solid #31548E;
-    border-radius: 9px;
-}
+
 
 .answer{
     color: #AECCFF;
@@ -1052,4 +973,24 @@
     margin-top: 20px;
     margin-left: 30px;
     font-family: 'Mont-600';
+}
+.arrowQ{
+   margin-right: 39px;
+   width: 15.8px;
+   height: 7.1px;
+   margin-top: 26px;
+}
+.seeAllFaq{
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F6F8FC;
+    font-family: 'Mont-700';
+    align-items: center;
+}
+.faqArr{
+    width: 13px;
+    height: 6px;
+    margin-left: 12px;
+    
 }

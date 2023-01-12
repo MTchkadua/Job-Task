@@ -13,7 +13,7 @@ onlyQuestion1.addEventListener("click", function(){
     questionOneBox.style.display="block"
 })
 questionOneBox.addEventListener("click", function(){
-    onlyQuestion1.style.display="block"
+    onlyQuestion1.style.display="flex"
     questionOneBox.style.display="none"
 })
 
@@ -22,8 +22,9 @@ onlyQuestion2.addEventListener("click", function(){
     onlyQuestion2.style.display="none"
     questionTwoBox.style.display="block"
 })
+
 questionTwoBox.addEventListener("click", function(){
-    onlyQuestion2.style.display="block"
+    onlyQuestion2.style.display="flex"
     questionTwoBox.style.display="none"
 })
 
@@ -33,7 +34,7 @@ onlyQuestion3.addEventListener("click", function(){
     question3Box.style.display="block"
 })
 question3Box.addEventListener("click", function(){
-    onlyQuestion3.style.display="block"
+    onlyQuestion3.style.display="flex"
     question3Box.style.display="none"
 })
 
@@ -43,6 +44,6 @@ onlyQuestion4.addEventListener("click", function(){
     question4Box.style.display="block"
 })
 question4Box.addEventListener("click", function(){
-    onlyQuestion4.style.display="block"
+    onlyQuestion4.style.display="flex"
     question4Box.style.display="none"
 })
