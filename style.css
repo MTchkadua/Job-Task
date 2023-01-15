@@ -258,7 +258,7 @@
     display: flex;
     color: #197AFF;
     font-size: 11px;
-    font-family: 'Mont-700';
+    font-family: 'Mont-600';
     align-items: center;
     margin-left: 32.5px;
     
@@ -547,6 +547,15 @@
     top: 206px;
     left: 180px;
 }
+.ppl1{
+    width: 141px;
+    height: 0px;    
+    border: 2px solid #647AA0;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 206px;
+    left: 180px;
+}
 .freeShippingCardTwo{
     color: #11346F;
     font-size: 13px;
@@ -560,18 +569,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 6px;
+    margin-left: 4px;
     background: #BCF5E3;
     border-radius: 40px;
 }
 .freeInstallmentBox2{
     display: flex;
-    font-size: 12px;
-    align-items: center;
-    justify-content: center;
+    font-size: 11px;
     margin-top: 11px;
     margin-left: 18px;
     color: #11346F;
+    font-family: 'Mont-600';
+    align-items: center;
 }
 .orderBox{
     width: 331px;
@@ -968,11 +977,13 @@
     margin-left: 30px;
     color: #AECCFF;
     font-family: 'Mont-500';
+    font-size: 16px;
 }
 .qa{
     margin-top: 20px;
     margin-left: 30px;
     font-family: 'Mont-600';
+    font-size: 16px;
 }
 .arrowQ{
    margin-right: 39px;
@@ -994,8 +1005,45 @@
     margin-left: 12px;
     
 }
+.bodyOneForMob{
+    display: none;
+}
+.shippingTxtForMob{
+    display: none;
+}
+.moneyBackTxtForMob{
+    display: none;
+}
+.sandTimer2{
+    display: none;
+}
+.carOne2{
+    display: none;
+}
+.ppl2{
+    display: none;
+}
+.footerQues2{
+    display: none;
+}
+.mobFooterFoto{
+    display: none;
+}
+.headerLineForMob{
+    display: none;
+}
+
+
+
+
+
+
+
 
 @media(max-width: 415px){
+    .bodyOneForMob{
+        display: block;
+    }
     .navBar{
         display: none;
     }
@@ -1008,8 +1056,473 @@
         align-items: center;
         justify-content: center;
         height: 52px;
+        position: relative;
     }
-   .bodyBoxOne{
-    display: none;
-   }
+    .bodyBoxOne{
+        display: none;
+    }
+    .bodyOneForMobHeader{
+        width: 213px;
+        margin-left: 17px;
+        margin-top: 13px;
+        font-size: 26px;
+        line-height: 30px;
+        color: #11346F;
+        font-family: 'Mont-600';
+    }
+    .underLineForMobfirst{
+        width: 97px;
+        height: 6px;
+        margin-left: 15px;
+    }
+    .headerMachineForMob{
+        position: absolute;
+        width: 174px;
+        height: 107px;
+        left: 227px;
+        top: 127px; 
+    }
+    .bodyOneArrowMob{
+        position: absolute;
+        left: 126px;
+        top: 187px;
+    }
+    .bodyOneMobTxt{
+        width: 378px;
+        height: 67px;
+        font-size: 14px;
+        font-family: 'Mont-600';
+        color: #262626;
+        text-align: center;
+        margin-left: 26px;
+        margin-right: 11px;
+        margin-top: 28px;
+        line-height: 22px;
+    }
+    .massageMobBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .massageMob{
+        width: 98px;
+    }
+
+    .m2{
+        margin-left: 12px;
+    }
+    .m1M{
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+        color: #11346F;
+        font-family: 'Mont-600';
+        margin-top: 8px;
+    }
+    .getNow{
+        width: 377px;
+        margin-left: 18px;
+    }
+    .sup{
+        display: none;
+    }
+    .boxOneBodyRate{
+        width: 377px;
+        margin-left: 18px;
+    }
+    .verifiedBuyer{
+        margin-left: 17px;
+    }
+    .shippingTxtForMob{
+        display: block;
+        font-size: 12px;
+        width: 85px;
+        text-align: center;
+        margin-top: 7px;
+    }
+    .shippingTxt{
+        display: none;
+    }
+    .shippingFotoDiv{
+        width: 36px;
+        height: 36px;
+    }
+    .shiping{
+        flex-direction: column;
+        width: 85px;
+        align-items: center;
+        justify-content: center;
+    }
+    .shippingImg{
+        width: 21.6px;
+        height: 18px;
+    }
+    .moneyBackTxt{
+        display: none;
+    }
+    .moneyBackTxtForMob{
+        display: block;
+        font-size: 12px;
+        width: 150px;
+        text-align: center;
+        margin-top: 7px;
+    }
+    .moneyBackImg{
+        width: 26px;
+        height: 26px;
+    }
+    .moneyBackFoto{
+        width: 36px;
+        height: 36px;
+    }
+    .moneyBack{
+        flex-direction: column;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+    .review{
+        display: none;
+    }
+
+
+
+
+    .secondSectionHeaderH{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .secondSectionHeaderP{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .secondSectionHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vertLine{
+        width: 286px;
+        margin-left: 0px;
+    }
+
+
+
+
+
+    .cardDiv{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 378px;
+        margin-left: 18px;
+    }
+    .carOne{
+        display: none;
+    }
+
+
+
+
+    .CardTwo{
+        margin-left: 0px;
+        width: 100%;
+        height: 468px;
+    }
+    .cardTwoMachine{
+        bottom: 395.89px;
+    }
+    .cardThree{
+        margin-left: 0px;
+        width: 100%;
+        height: 468px;
+        margin-top: 73px;
+    }
+    .cardThreeMachine{
+        bottom: 395.89px;
+    }
+    .popularCardtwo{
+        margin-top: 83px;
+        margin-left: 121px;
+    }
+    .cardTwoArrow{
+        position: absolute;
+        transform: rotate(342.19deg);
+        bottom: 361.22px;
+        left: 242.86px;
+    }
+    .carTwoHeader{
+        margin-top: 11px;
+        font-size: 24px;
+        line-height: 29px;
+        height: 30px;
+        margin-left: 90px;
+    }
+    .cardTwoPrice{
+        margin-left: 96px;
+        margin-top: 21px;
+    }
+    .curPriceCardTwo{
+        width: 83px;
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .freeShippingCardTwo{
+        display: none;
+    }
+    .oldPriceCardTwo{
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .ppl{
+        width: 100px;
+        border: 1.5px solid #647AA0;
+        top: 168px;
+        left: 196px;
+    }
+    .ppl2{
+        display: block;
+        width: 100px;
+        height: 0px;    
+        border: 1.5px solid #647AA0;
+        transform: rotate(180deg);
+        position: absolute;
+        top: 161px;
+        left: 200px;
+    }
+    .ppl1{
+        display: none;
+    }
+    .freeInstallmentBox2{
+        margin-top: 16px;
+        font-size: 10px;
+    }
+    .afterPayBoxCardTwo{
+        margin: 13px;
+    }
+    .orderBox{
+        width: 342px;
+        height: 77px;
+        margin-top: 13px;
+    }
+    .orderBox1{
+        height: 36px;
+        margin-top: 0px;
+    }
+    .orderBoxGreen{
+        height: 36px;
+    }
+    .cardTwoButoon{
+        width: 353px;
+        height: 48px;
+    }
+    .sandTimer2{
+        display: block;
+        width: 11.35px;
+        height: 17px;
+        margin-right: 9.65px;
+    }
+    .priceRemainingCards{
+        font-size: 12px;
+    }
+    .cardTwoIcons{
+        margin-top: 12px;
+    }
+    .bestValue{
+        margin-top: 77px;
+        margin-left: 146px;
+    }
+
+    .carOne2{
+        margin-top: 41px;
+        position: relative;
+        width: 378px;
+        height: 387px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1.5px solid #197AFF;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardOneHeader{
+        margin-top: 33px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .freeInstallment{
+        margin-top: 10px;
+    }
+    .cardOneMachine2{
+        width: 113px;
+        height: 100px;
+        margin-top: 27px;
+    }
+    .cardOneButoon{
+        margin-top: 23px;
+        width: 353px;
+        height: 48px;
+    }
+    .cardIcons{
+        margin-top: 16px;
+    }
+    .cardOnePrice{
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+
+  
+
+
+
+
+    .footerHeader{
+        flex-direction: column;
+        margin-left: 77px;
+        font-size: 30px;
+        height:  96px;
+        align-items: center;
+        justify-content: center;
+        width: 260px;
+        line-height: 47px;
+    }
+    .footerQues2{
+        font-family: 'Mont-800';
+        display: block;
+    }
+    .footerQues{
+        display: none;
+    }
+    .footerLine{
+        margin-left: 142px;
+        width: 131px;
+        height: 4px;
+    }
+    .desktopFooterFoto{
+        display: none;
+    }
+    .mobFooterFoto{
+        display: block;
+    }
+    .footerBody{
+        margin-top: 39px;
+        width: 378px;
+        margin-left: 18px;
+        flex-direction: column;
+    }
+    .questionContainer{
+        margin-top: 24px;
+    }
+    #qB{
+        height: 131px;
+        width: 378px;
+    }
+    #onlyQ{
+        width: 378px;
+        color: #FFFFFF;
+    }
+    .answer{
+        margin-left: 14px;
+    }
+    .onlyQ{
+        margin-top: 10px;
+        margin-left: 14px;
+        color: #FFFFFF;
+    }
+    .seeAllFaq{
+        margin-left: 132px;
+    }
+    .qa{
+        margin-top: 15px;
+        margin-left: 14px;
+        font-size: 16px;
+    }
+    .arrowQ{
+        margin-right: 28px;
+        margin-top: 15px;
+    }
+   
+
+
+  
+    .sectionThree{
+        display: block;
+    }
+    .sectionThreeHeader{
+        font-size: 30px;
+        width: 382px;
+        height: 81px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 18px;
+        line-height: 40px;
+    }
+    .headerLine{
+        display: none;
+    }
+    .headerLineForMob{
+        display: block;
+        width: 165px;
+        height: 6px;
+    }
+    .writeReview{
+        height: 40px;
+        align-items: center;
+        margin-left: 8px;
+        width: 93.56%;
+    }
+    .writeRevBox{
+        margin-left: 17px;
+    }
+    .starsSectionThree{
+        display: flex;
+        flex-direction: column;
+        height: 40px;
+    }
+    .totRev{
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .star1{
+        margin-left: 10px;
+    }
+
+
+    .slideBox2{
+        margin-left: 0px;
+        
+    }
+    .slideBox3{
+        margin-left: 13px;
+       
+    }
+    .slideBox4{
+        margin-left: 13px;
+    
+    }
+    .slideBox5{
+        margin-left: 13px;
+      
+    }
+   
+    .slideSection{
+        display: none;
+    }
+    .slideSection2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 18px;
+        width: 354px;
+        overflow-y: scroll;
+    }
+   
+    
+    .slideSection2::-webkit-scrollbar{
+        width: 0;
+    }
+
 }
+

@@ -47,3 +47,8 @@ question4Box.addEventListener("click", function(){
     onlyQuestion4.style.display="flex"
     question4Box.style.display="none"
 })
+
+
+
+ 
+  
