@@ -848,7 +848,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 23px;
-    margin-bottom: 52px;
+    margin-bottom: 22px;
     display: none;
 }
 
@@ -1030,6 +1030,9 @@
     display: none;
 }
 .headerLineForMob{
+    display: none;
+}
+.dot{
     display: none;
 }
 
@@ -1516,13 +1519,36 @@
         flex-direction: row;
         margin-left: 18px;
         width: 354px;
-        overflow-y: scroll;
+        overflow: scroll;
     }
    
     
     .slideSection2::-webkit-scrollbar{
         width: 0;
     }
+
+    .dot{
+        width: 62px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 176px;
+        margin-bottom: 31px;
+    }
+    .dots{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #CBCED6;
+        
+    }
+    .dots1{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #197AFF;;
+        
+    }
+
 
 }
 

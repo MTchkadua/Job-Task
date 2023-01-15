@@ -48,7 +48,29 @@ question4Box.addEventListener("click", function(){
     question4Box.style.display="none"
 })
 
+//slider
 
 
- 
+const element = document.querySelector("div#slider22");
+const d1 = document.querySelector("#d1")
+const d2 = document.querySelector("#d2")
+const d3 = document.querySelector("#d3")
+
+
+element.addEventListener("scroll", (event) => {
+   let cord = element.scrollLeft
+   if(cord>170 && cord < 570){
+    d1.style.background="#CBCED6"
+    d2.style.background="#197AFF"
+    d3.style.background="#CBCED6"
+   }else if(cord>570){
+    d1.style.background="#CBCED6"
+    d2.style.background="#CBCED6"
+    d3.style.background="#197AFF"
+   }else{
+    d1.style.background="#197AFF"
+    d2.style.background="#CBCED6"
+    d3.style.background="#CBCED6"
+   }
+});
   
